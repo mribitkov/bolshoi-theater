@@ -20,10 +20,16 @@ body {
     background: rgba(51, 51, 51, 0.75);
 }
 
+.aside__container {
+    padding-top: 285px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .aside__title {
-    position: absolute;
-    top: 318px;
-    left: -45px;
+    margin: 0;
+    width: 300px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -39,18 +45,14 @@ body {
 .aside__line {
     width: 3px;
     height: 80px;
-    position: relative;
-    top: 500px;
-    left: 75px;
     display: block;
+    margin-top: 175px;
     background: #C4C4C4;
 }
 
 .aside__social-container {
-    position: absolute;
-    top: 612px;
-    left: 62px;
     display: flex;
+    padding-top: 40px;
     align-items: center;
     flex-direction: column;
     gap: 30px;
