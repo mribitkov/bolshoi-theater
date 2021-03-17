@@ -388,3 +388,89 @@ label, a{
 .about__numbers_item p span {
     color: #D1A954;
 }
+
+/* Events section styles */
+.events__title {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #D1A954;
+}
+
+.events__title span {
+    color: #FFFFFF;
+}
+
+.events__container {
+    padding-left: 150px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.event__item {
+    width: 442px;
+    height: 550px;
+    position: relative;
+}
+
+.event__item .title {
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.event__item .mouth {
+    margin: 0;
+    width: 131px;
+    position: absolute;
+    left: -16px;
+    bottom: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    transform: rotate(-90deg);
+}
+
+.oscar {
+    background: url("../img/events-image-1.png");
+}
+
+.ardionat {
+    background: url("../img/events-image-2.png");
+}
+
+.gold {
+    background: url("../img/events-image-3.png");
+}
+
+.chelk {
+    background: url("../img/events-image-4.png");
+}
+
+/* Rating section styles */
+.rating {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
