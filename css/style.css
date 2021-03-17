@@ -474,3 +474,31 @@ label, a{
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
+/* Partners section styles */
+.partners__title {
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #D1A954;
+}
+
+.partners__title span {
+    color: #FFFFFF;
+}
+
+.partners__container {
+    gap: 80px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
